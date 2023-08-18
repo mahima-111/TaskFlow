@@ -1,0 +1,49 @@
+@media screen and (width>=1500px) {
+    html{
+        font-size: 130%;
+    }
+}
+@media screen and (width>=1200px) {
+    html{
+        font-size: 110%;
+    }
+}
+@media screen and (width<=1000px) {
+    .container{
+        width: 50vw;
+    }
+}
+@media screen and (width<=800px) {
+    html{
+        font-size: 90%;
+    }
+}
+@media screen and (width<=800px) {
+    .list-input{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+}
+@media screen and (width<=600px) {
+    .container{
+        width: 70vw;
+    }
+}
+@media screen and (width<=400px) {
+    html{
+        font-size: 80%;
+    }
+    .container{
+        width: 80vw;
+    }
+}
+@media screen and (width<=350px) {
+    .container{
+        width: 90vw;
+    }
+}
